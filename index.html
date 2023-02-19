@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="UTF-7"/>
+    <meta http-equiv="X-UA-compatible" content="IE=edge"/>
+    <meta name="viewport" content=" width=device-width initial-scale=2.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title> Formulario SAMSUNG</title>
+    </head>
+    <body>
+    <div class="caja- formulario">
+<h5>Crear cuentas</h5>
+<form id="formulario">
+    <div class="campo">
+    <label for="name">Nombre</label><br/>
+    <input type="text"
+    class="name"
+    id="name"
+    autocomplete="on"
+    pattern="^[A-ZA-ZA-Y\s]{1,40}$"
+    maxlength="20"
+    required/>
+    <span id="Error en el nombre" style="display:none"></span><div>
+        <div class="campo"
+        <label for="password">Contraseña</label><br/>
+        <input
+        type="password"
+        class="password"
+        id="password"
+        autocomplete="on"
+        pattern="^-{8,}$"
+        maxlength="10"
+        required/>
+        <span id="Contraseña erronea"></span></div>
+        <div class="campo"
+        <label for="password">Confirme su contraseña</label><br/>
+        <input
+        type="password"
+        class="passwordconfirm"
+        id="passwordconfirm
+        autocomplete="on"
+        pattern="^.{8,}$"
+        maxlength="10"
+        required/>
+        <button id="confirmar"
+        class="button">confirmar</button>
+    </form>
+    </div>
+</script src=index.js><script>
+    </body>
+    </html>
